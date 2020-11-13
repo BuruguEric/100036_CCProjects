@@ -26,7 +26,7 @@ int isKeyword(char buffer[]) {
 
 int main() {
 	char character, buffer[15], operators[] = "+-*/%=";
-	ifstream file("program.txt");
+	ifstream file("programs.txt");
 	int i, j = 0;
 
 	//If statement for error when opening file
