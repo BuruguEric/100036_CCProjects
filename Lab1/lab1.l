@@ -18,7 +18,7 @@ auto|break|case|char|const|continue|default|do|double|else|enum|extern|float|for
 
 /* Driver Function*/
 int main(void){
-	yyin= fopen("program.txt","r");
+	yyin= fopen("programs.txt","r");
 	yylex();
 	
 } 
